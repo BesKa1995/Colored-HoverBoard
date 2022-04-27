@@ -29,6 +29,8 @@ function removeColor(element) {
 }
 
 function getRandomColor() {
+
+  //Math.random() * color.length - gives us random number from 0 to color Length
   return colors[Math.floor(Math.random() * colors.length)]
 }
 
